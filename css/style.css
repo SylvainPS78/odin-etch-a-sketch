@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.square {
+    border: 1px solid black;
+    flex-basis: 6.25%;
+    aspect-ratio: 1 / 1;
+}
